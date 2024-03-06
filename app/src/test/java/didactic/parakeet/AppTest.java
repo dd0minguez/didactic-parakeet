@@ -11,4 +11,12 @@ class AppTest {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
+    @Test void SumaCorrecta(){
+        App classSuma = new App();
+        assertEquals(4, classSuma.sumar(2, 2));
+    }
+    @Test void RestaCorrecta(){
+        App classResta = new App();
+        assertEquals(0, classResta.sumar(2, 2));
+    }
 }
