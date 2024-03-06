@@ -17,6 +17,6 @@ class AppTest {
     }
     @Test void RestaCorrecta(){
         App classResta = new App();
-        assertEquals(1, classResta.sumar(3, 2));
+        assertEquals(2, classResta.sumar(4, 2));
     }
 }
